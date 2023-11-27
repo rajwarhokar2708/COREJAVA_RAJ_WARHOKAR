@@ -9,8 +9,7 @@ public class Local_Variable_Scope {
 		
 		String string_City="nagpur";
 		
-		System.out.println("City Nmae : "+string_City);
-		Local_Variable_Scope var=new Local_Variable_Scope();
+		System.out.println("City Name : "+string_City);
 		
 		 
 	}
