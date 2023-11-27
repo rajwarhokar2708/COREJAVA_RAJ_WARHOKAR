@@ -25,7 +25,7 @@ public class NonStaticVariable2 {
 		System.out.println("Pie value is : "+nsc2.pie);
 		System.out.println("Account balance :"+nsc2.accountBalance);
 		System.out.println("Alphabet :"+nsc2.alphabet);
-
+		System.out.println("heyy buddy");
 	}
 
 }

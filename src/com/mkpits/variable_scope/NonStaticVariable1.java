@@ -24,6 +24,7 @@ public class NonStaticVariable1 {
 		System.out.println("Default value of float datatype is :"+nsv1.pie);
 		System.out.println("Default value of double datatype is :"+nsv1.accountBalance);
 		System.out.println("Default value of char datatype is :"+nsv1.alphabet);
+		System.out.println("heyy buddy");
 
 	}
 
