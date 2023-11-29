@@ -13,22 +13,28 @@ public class MethodDeclaration {
 		getPassword();
 	}
 	public static void getFirstName() {
-		System.out.println("First name :-Raj ");
+		String name="Raj";
+		System.out.println("First name :-"+name);
 	}
 	public static void getLastName() {
-		System.out.println("Last Name :-Kumar ");
+		String lastName="Kumar";
+		System.out.println("Last Name :-"+lastName);
 	}
 	public static  void getEmail() {
-		System.out.println("Email ID:-kumarraj@gmail.com");
+		String email="kumarraj@gmail.com";
+		System.out.println("Email ID:-"+email);
 	}
 	public static void getMobile() {
-		System.out.println("Mobile Number :-9355685369");
+		long mobile=9355685369l;
+		System.out.println("Mobile Number :-"+mobile);
 	}
 	public static void getGender() {
-		System.out.println("Gender :-Male");
+		String gender="Male";
+		System.out.println("Gender :-"+gender);
 	}
 	public static void getPassword() {
-		System.out.println("Password :-123456");
+		String password="raj@456";
+		System.out.println("Password :-"+password);
 	}
 	public static void getAllData() {
 		getFirstName();
