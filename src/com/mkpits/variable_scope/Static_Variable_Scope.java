@@ -2,7 +2,7 @@ package com.mkpits.variable_scope;
 
 public class Static_Variable_Scope {
 	
-	static String email="rajwarhokar@gmail.com";
+	public static String email="rajwarhokar@gmail.com";
 
 	public static void main(String[] args) {
 		//Static variable value cannot delocate
