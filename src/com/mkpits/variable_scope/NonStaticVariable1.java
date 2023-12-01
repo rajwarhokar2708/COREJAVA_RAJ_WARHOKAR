@@ -1,7 +1,7 @@
 package com.mkpits.variable_scope;
 
 public class NonStaticVariable1 {
-	
+	//Non-Static variable can call using only object it is the only way to call Non-static variable
 	public boolean correctDirection;
 	public byte value;
 	public short ticketNo;

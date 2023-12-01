@@ -7,6 +7,7 @@ public class CallingMethod2 {
 		MethodDeclaration md=new MethodDeclaration();
 		md.getAllData();
 		//Calling by instance
+		//By using instance we call only one method or variable
 		new MethodDeclaration().getEmail();
 	}
 

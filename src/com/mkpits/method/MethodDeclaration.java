@@ -4,7 +4,9 @@ public class MethodDeclaration {
 
 	public static void main(String[] args) {
 		//Calling by direct method
-		
+		//Static method can not be delocate the data
+		//Their is a three way to call static method 
+		//1)deirect call 2)Using Class_Name.method_Name 3)using Object and instance
 		getFirstName();
 		getLastName();
 		getEmail();

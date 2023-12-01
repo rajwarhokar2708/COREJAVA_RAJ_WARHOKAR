@@ -6,6 +6,7 @@ public class Static_Variable_Scope {
 
 	public static void main(String[] args) {
 		//Static variable value cannot delocate
+		//Static variable cannot call in method they call in only class
 		//There are three type to call Static variable
 		//1)call by variable in same class 
 		//2)call by class name and variable name (class_name.variable_name)
@@ -18,5 +19,4 @@ public class Static_Variable_Scope {
 				System.out.println("Email :"+email);
 		
 	}
-
 }
