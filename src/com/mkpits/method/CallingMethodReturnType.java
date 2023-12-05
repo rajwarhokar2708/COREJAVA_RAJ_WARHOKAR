@@ -1,7 +1,5 @@
 package com.mkpits.method;
 
-import java.util.Scanner;
-
 import com.mkpits.variable_scope.Static_Variable_Scope;
 
 public class CallingMethodReturnType {

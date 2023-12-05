@@ -4,6 +4,7 @@ public class AllTypefMethods {
 
 	public static void main(String[] args) {
 		AllTypefMethods obj=new AllTypefMethods();
+		
 		obj.uName();//Non static method calling by object (only)
 		
 		uEmail();// Static method calling direct 
