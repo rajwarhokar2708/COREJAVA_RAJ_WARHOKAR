@@ -161,7 +161,7 @@ public class RegistrationForm {
 		System.out.println("Enter a Mobile Number :");
 		mobileNo=Long.parseLong(br.readLine());
 		
-		int otp=(int)Math.floor(Math.random()*1000000);
+		long otp=(long)Math.floor(Math.random()*1000000);
 		int otp1;
 		do {
 		System.out.println("otp is:"+otp);
