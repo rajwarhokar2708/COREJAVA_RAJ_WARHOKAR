@@ -30,7 +30,9 @@ public class StringClass {
 													// first me hai ke nhi if hai to true print karega nhi to false
 		System.out.println(name.contentEquals(name2));
 		System.out.println(name.endsWith("r"));// jo charcter method me pass karege vo check karega ke vo string ke last
-        // charcter se same hai ya nhi
-
+												// charcter se same hai ya nhi
+		System.out.println();
+		
+		
 	}
 }

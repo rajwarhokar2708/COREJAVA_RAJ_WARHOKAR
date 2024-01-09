@@ -13,8 +13,8 @@ public class RegistrationForm {
 		static BufferedReader br; //Object reference of BufferReader class
 		static RegistrationForm rf; //Object reference of This Class
 		
-		String name ,email,address;
-		long mobileNo,accountNumber;
+		String name ,email,address,mobileNo;
+		long accountNumber;
 		int age,pinCode,accountPin,accountType;
 		float balance,withdrawAmount,dAmount;
 		
@@ -63,7 +63,7 @@ public class RegistrationForm {
 	public void accountDetails() {
 		System.out.println("Holder Name :"+name);
 		System.out.println("Holder Email :"+email);
-		System.out.println(" Holder Address"+address);
+		System.out.println("Holder Address :"+address);
 		System.out.println("Holder Mobile Number :"+mobileNo);
 		System.out.println("Holder Pin-Code :"+pinCode);
 		System.out.println("Holder Age :"+age);
@@ -103,7 +103,7 @@ public class RegistrationForm {
 		System.out.println("Enter Your Account Pin:");
 		accountPin=Integer.parseInt(br.readLine());
 		if((accountNumber==123456789)&&accountPin==1234) {
-			System.out.println("Withdraw Amount :");
+			System.out.println("Withdraw Amount :"); 
 			withdrawAmount=Float.parseFloat(br.readLine());
 			if(withdrawAmount>balance) {
 				System.out.println("Insufficient balance");
@@ -144,10 +144,10 @@ public class RegistrationForm {
 		email=br.readLine();
 		 String regex = "^(.+)@(.+)$";    
 	        Pattern pattern = Pattern.compile(regex);   
-	        Matcher matcher = pattern.matcher(email);  
+	        Matcher matcher = pattern.matcher(email);
 	        if (!matcher.matches()) {
 					System.out.println("Email Not Valid");
-				}  
+				}
 		
 		System.out.println("Enter your age :");
 		age=Integer.parseInt(br.readLine());
@@ -158,8 +158,15 @@ public class RegistrationForm {
 		System.out.println("Pin-Code :");
 		pinCode=Integer.parseInt(br.readLine());
 		
+		
 		System.out.println("Enter a Mobile Number :");
-		mobileNo=Long.parseLong(br.readLine());
+		mobileNo=br.readLine();
+		while(mobileNo.isEmpty()|| mobileNo.length()!=10 || !mobileNo.matches("//d+")) {
+			System.out.println("Invalid Mobile Number Plese Enter Valid Mobile Number");
+			mobileNo=br.readLine();
+			break;
+		}
+		
 		
 		long otp=(long)Math.floor(Math.random()*1000000);
 		int otp1;
