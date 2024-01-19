@@ -1,4 +1,4 @@
-package com.mkpits.generics;
+package com.mkpits.collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;

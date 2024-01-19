@@ -1,4 +1,4 @@
-package com.mkpits.generics;
+package com.mkpits.collection;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.List;
 public class StringArrayList {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		List<String> name=new ArrayList<String>();
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter num How many names you want to add ");

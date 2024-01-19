@@ -1,4 +1,4 @@
-package com.mkpits.generics;
+package com.mkpits.collection;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class IntegerArrayList {
 	}
 
 	private void integerList() {
-		List<Integer> num2=new ArrayList<Integer>();
+		List<Integer> num2=new ArrayList<Integer>();		
 		BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter A number how many Element you want to add :");
 		int range = 0;

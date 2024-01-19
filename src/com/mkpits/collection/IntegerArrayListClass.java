@@ -1,4 +1,4 @@
-package com.mkpits.generics;
+package com.mkpits.collection;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,12 +8,11 @@ public class IntegerArrayListClass {
 
 	public static void main(String[] args)  {
 		
-		int range = 0;
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter num how many element you want to add :");
 
 		try {
-			range=Integer.parseInt(br.readLine());
+			int range=Integer.parseInt(br.readLine());
 			Integer []intArr = new Integer[range];
 			for (int i = 0; i < range; i++) {
 				System.out.println("Enter number :");
